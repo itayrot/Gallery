@@ -1,0 +1,183 @@
+
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ),url("/imgs/background.jpg");
+    background-repeat:round;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(188, 226, 252);
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+
+.header{
+    width: 100%;
+    text-align: center;
+    background-color:rgba(120, 96, 143, 0.712);
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+.header-text{
+    font-size: 40px;
+/* font-family: 'Lora', serif; */
+font-family: 'Cinzel', serif;
+/* font-family: 'Spicy Rice', cursive; */
+color: aliceblue;
+}
+
+.books-container{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .books-container :hover { background-color: rgba(102, 89, 117, 0.473);} */
+
+.book-box {
+    background-color:rgba(151, 123, 61, 0.438);
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.book-img {
+    margin: 30px;
+    width: 100px
+}
+
+.sec-title{
+width: 100%;
+text-align: center;
+color: azure;
+font-family: 'Cinzel', serif;
+
+}
+
+.book-headline{
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Cabin', sans-serif;
+    margin-top: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.book-details{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-btns{
+    margin:10px;
+}
+
+.details-font{
+    color:rgb(255, 254, 247);
+    font-family: 'Cabin', sans-serif;
+}
+
+.new-price,.price{
+color:white;
+font-family: 'Cabin', sans-serif;
+}
+
+.book-modal{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    width: 60vh;
+    background-color:rgba(168, 122, 60, 0.849);
+    color: white;
+    position: absolute;
+    margin: 300px;
+    text-align: center;
+  
+}
+
+.modal-headline{
+    width: 100%;
+}
+
+.first-modal-headline{
+    display: flex;
+    flex-direction: row-reverse ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Cabin', sans-serif;
+    /* height: 200px; */
+}
+
+.modal-book-img{
+    margin: 20px;
+    margin-right:120px;
+    width: 100PX;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.modal-bookname{
+    margin-top:50px;
+    margin-right: 70px;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.modal-center {
+    overflow: hidden;
+    height: 200px;
+  /* background: #555; */
+  background-color:rgba(168, 122, 60, 0.849);
+    text-align: left;
+    overflow-y: scroll;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.btn-modal{
+    position: absolute;
+    text-align: right;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.btn-modal:hover{
+    background-color:rgb(136, 136, 146);
+}
+
+.btn{
+
+    font-family: 'Cabin', sans-serif;
+}
+
+.btn:hover{
+    background-color:rgb(136, 136, 146);
+
+}
+
+.hide{
+    display: none;
+}
+
+
+.rate-tbn{
+    width: 20px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    background-color:aquamarine;
+    width: 10px;
+}
